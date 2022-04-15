@@ -20,11 +20,19 @@
             </Label.FormattedText>
         </Label>
         <StackLayout>
-            <Button Text="PDF"
+            <Button Text="PDF iOS"
                     FontSize="Large"
                     x:Name="BtnPDF"
                     Clicked="BtnPDF_Clicked">
                 
+            </Button>
+        </StackLayout>
+        <StackLayout>
+            <Button Text="PDF Android"
+                    FontSize="Large"
+                    x:Name="BtnPDF2"
+                    Clicked="BtnPDF2_Clicked">
+
             </Button>
         </StackLayout>
     </StackLayout>
